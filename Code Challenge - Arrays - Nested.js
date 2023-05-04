@@ -18,7 +18,7 @@ function truckLocation(matrix) {
 
     }
 
-    let truckLocationX = Math.ceil(sumX/customerArray.length);
+    let truckLocationX = Math.round(sumX/customerArray.length);
 
     let sumY = 0;
 
@@ -28,7 +28,7 @@ function truckLocation(matrix) {
 
     }
 
-    let truckLocationY = Math.ceil(sumY/customerArray.length);
+    let truckLocationY = Math.round(sumY/customerArray.length);
 
     return [truckLocationX, truckLocationY];
 
